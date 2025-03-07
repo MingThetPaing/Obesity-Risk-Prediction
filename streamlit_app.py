@@ -57,7 +57,7 @@ caec = st.selectbox("Consumption of Food Between Meals", ["Sometimes", "Frequent
 smoke = st.selectbox("Do you smoke?", ["yes", "no"])
 ch2o = st.slider("Daily Water Intake (in liters) (1-3)", 1, 3, 2)
 scc = st.selectbox("Calories Monitoring", ["yes", "no"])
-faf = st.slider("Physical Activity Frequency (0-3)", 0, 1, 2, 3)
+faf = st.slider("Physical Activity Frequency (0-3)", 0, 3, 2)
 calc = st.selectbox("Consumption of Alcohol", ["Sometimes", "Frequently", "Always", "no"])
 mtrans = st.selectbox("Mode of Transportation", ["Public_Transportation", "Automobile", "Walking", "Motorbike", "Bike"])
 
