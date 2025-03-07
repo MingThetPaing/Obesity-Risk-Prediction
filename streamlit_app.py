@@ -5,7 +5,7 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.ensemble import RandomForestClassifier
 
 # dataset
-data = pd.read_csv(ObesityDataSet.csv)
+data = pd.read_csv("ObesityDataSet.csv")
 
 # label encoding
 categorical_columns = ["Gender", "family_history_with_overweight", "FAVC", "CAEC", "SMOKE", "SCC", "CALC", "MTRANS"]
